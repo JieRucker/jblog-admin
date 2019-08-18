@@ -11,12 +11,12 @@ const build = {
   common_url: 'http://admin.jrucker.cn',
 };
 const build_dev = {
-  static_url: 'http://static-admin.jrucker.cn:8091/', // 静态资源路径
-  common_url: 'http://admin.jrucker.cn:8091',
+  static_url: 'http://static-admin.jrucker.cn:8092/', // 静态资源路径
+  common_url: 'http://admin.jrucker.cn:8092',
 };
 const dev = {
-  static_url: 'http://localhost:8091/', // 静态资源路径
-  common_url: 'http://localhost:8091',
+  static_url: 'http://localhost:8092/', // 静态资源路径
+  common_url: 'http://localhost:8092',
 };
 
 module.exports = {build, build_dev, dev};
